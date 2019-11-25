@@ -10,6 +10,7 @@ export default function cart(state = [], action) {
       });
     case '@cart/REMOVE':
       return produce(state, draft => {
+        console.tron.log(action);
         const productIndex = draft.findIndex(p => p.id === action.id);
 
         if (productIndex >= 0) {

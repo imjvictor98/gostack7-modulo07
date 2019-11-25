@@ -4,12 +4,11 @@ import 'react-toastify/dist/ReactToastify.css';
 import background from '../assets/images/background.svg';
 
 export default createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
   * {
     margin: 0;
     padding: 0;
-    outline: 0;
     box-sizing: border-box;
   }
 

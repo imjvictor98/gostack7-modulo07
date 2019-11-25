@@ -38,7 +38,7 @@ export const ProductList = styled.ul`
       border: 0;
       border-radius: 4px;
       overflow: hidden;
-      margin-top: auto;
+      margin: auto;
 
       display: flex;
       align-items: center;

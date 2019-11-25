@@ -52,13 +52,6 @@ export const ProductTable = styled.table`
     display: block;
   }
 
-  span {
-    display: block;
-    margin-top: 5px;
-    font-size: 18px;
-    font-weight: bold;
-  }
-
   div {
     display: flex;
     align-items: center;

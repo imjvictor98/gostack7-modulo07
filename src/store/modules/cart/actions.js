@@ -26,7 +26,6 @@ export function updateAmountRequest(id, amount) {
     amount,
   };
 }
-
 export function updateAmountSuccess(id, amount) {
   return {
     type: '@cart/UPDATE_AMOUNT_SUCCESS',
